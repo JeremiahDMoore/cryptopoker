@@ -1,2 +1,2 @@
 # cryptopoker
-Demo landing page for applications coming soon
+Demo landing page/ coming soon page for your application
