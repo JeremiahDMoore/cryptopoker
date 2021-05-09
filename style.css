@@ -1,0 +1,135 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+
+.algo {
+   
+    animation: fadeIn 7s;
+    -webkit-animation: fadeIn 7s;
+    -moz-animation: fadeIn 7s;
+    -o-animation: fadeIn 7s;
+    -ms-animation: fadeIn 7s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
+html{
+    min-height: 100%;
+  }
+body {
+  margin-left: 10%;
+  background-color: #4158D0;
+  padding-top: 20%;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  color: #272626;
+  text-shadow: 6px 8px 0px #77777742;
+
+}
+
+.logo {
+    
+  font-family: 'Harmattan', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    
+  }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+
+}
+ #title {
+      color:  #f1f1f1;
+      font-size: 45px;
+      text-align: center;
+ }
+.container {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+    color: #f1f1f1;
+    position: absolute;
+  }
+
+.lottie {
+	float: left;
+	width: 100%;
+  position: absolute;
+  margin-right: 5%;
+  margin-left:40%;
+  padding: 25px;
+  top:0;
+
+}
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  padding: 10px 50px 10px 50px ;
+  border-radius: 32px;
+  border: #272626 solid 2px;
+  background-color: transparent;
+  color: #272626;
+ /* box-shadow: 6px 8px 0px #77777777; */
+
+}
+button:hover { background-color: #C850C0;}
+a {
+    color: #272626;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+  }
+  a:active {
+    color: #000;
+  }
+  a:hover {
+    color: #C850C0 !important;
+  }
+  
+.right { 
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  padding:2%;
+  margin-left: 5%;
+  font-size: 42px;
+  animation-name: fade-in-move-down;
+  animation-duration: 5s;
+}
+@keyframes fade-in-move-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
