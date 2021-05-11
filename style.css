@@ -100,6 +100,71 @@ button {
  /* box-shadow: 6px 8px 0px #77777777; */
 
 }
+
+form input[type="email"] {
+	float: left;
+	width: 100%;
+	height: 65px;
+	border-radius: 32px;
+	border: 0;
+	padding: 10px 40px;
+	margin-bottom: 12px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font: 400 24px 'Roboto', sans-serif;
+	color: #777;
+}
+
+
+form input[type="email"] {
+	float: left;
+	width: 100%;
+	height: 65px;
+	padding: 0 20px;
+	border-radius: 32px;
+  
+	background: #dedede;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font: 400 24px 'Roboto', sans-serif;
+	color: #777;
+	margin: 0 0 30px 0;
+
+	}
+
+  form input[type="submit"] {
+     font-family: 'Roboto', sans-serif;
+     
+  font-size: 38px;
+  padding: 10px 180px 10px 180px ;
+  border-radius: 32px;
+  border: #272626 solid 2px;
+  background-color: transparent;
+  color: #272626;
+  }
+  form input[type="submit"]:hover{
+    background-color: #C850C0;
+  }
+  form input::-webkit-input-placeholder {
+   color:#777;
+   opacity:1;
+  }
+  form input:-moz-placeholder {
+   color:#777;
+   opacity:1;
+  }
+  form input::-moz-placeholder {
+   color:#777;
+   opacity:1;
+  }
+  form input:-ms-input-placeholder {
+   color:#777;
+   opacity:1;
+  }
+
 button:hover { background-color: #C850C0;}
 a {
     color: #272626;
